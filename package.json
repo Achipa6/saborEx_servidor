@@ -1,0 +1,26 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "Mi servidor",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "author": "Aroa",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.7",
+    "bootstrap": "^5.3.3",
+    "bunyan": "^1.8.15",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "msql": "^1.0.3",
+    "mysql": "^2.18.1",
+    "mysql2": "^3.11.3"
+  },
+  "devDependencies": {
+    "helmet": "^8.0.0",
+    "nodemon": "^3.1.7"
+  }
+}
