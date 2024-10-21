@@ -50,6 +50,6 @@ app.use((err , req , res , next)=>{
 })
 
 //paralevantar el servidor:
-app.listen(process.env.PORT_BD,()=>{
+app.listen(process.env.PORT,()=>{
     logger.info('Servidor Levantado');//lo que vemos en terminal
 })
