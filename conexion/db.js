@@ -1,4 +1,4 @@
-const mysql = require('mysql');
+const mysql = require('mysql2');
 const bunyan = require('bunyan');
 
 const consoleLogBD = bunyan.createLogger({name: 'Console log de la BD'});
